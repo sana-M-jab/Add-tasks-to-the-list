@@ -41,3 +41,42 @@ app-example
 # generated native folders
 /ios
 /android
+
+
+
+# Node Modules
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+package-lock.json # اختياري، يفضل رفعه لضمان استقرار الإصدارات
+yarn.lock         # اختياري، يفضل رفعه
+
+# React Native / iOS / Android
+/ios/Pods/
+/ios/build/
+/android/app/build/
+.gradle/
+*.iml
+.idea/
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+/dist/
+/build/
+
+# IDE / Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
